@@ -162,7 +162,7 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1, h2, h3, h4, h5 {
 		color: #fff;
 		font-weight: 800;
 		letter-spacing: 0.225em;
@@ -215,8 +215,14 @@ input, select, textarea {
 	}
 
 	h6 {
-		font-size: 0.7em;
+		font-size: 0.5em;
 		line-height: 1.5em;
+		color: rgb(188, 188, 188);
+		font-weight: 800;
+		letter-spacing: 0.225em;
+		line-height: 1em;
+		margin: 0 0 1em 0;
+		text-transform: none;
 	}
 
 	sub {
@@ -2132,6 +2138,17 @@ input, select, textarea {
 			.image.fit img {
 				width: 100%;
 			}
+			.img1{
+				max-width: 100%;
+				height: auto;
+			
+			}
+			@media screen and (max-width: 720px){
+				.img1{width: 90%;}
+			}
+			
+		
+			
 
 /* List */
 
@@ -4025,7 +4042,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		padding: 6em 0 4em 0 ;
+		padding: 1.5em 0 1em 0 ;
 		background-color: #1d242a;
 		text-align: center;
 	}
@@ -4174,4 +4191,8 @@ input, select, textarea {
 	  .tile:hover .tile-text {
 		opacity: 1;
 	  }
-	  
+	  .imgicon {
+		max-width: 100%;
+		height: auto;
+		width: 100%;
+	}
